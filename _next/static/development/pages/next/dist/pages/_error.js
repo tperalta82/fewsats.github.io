@@ -268,25 +268,28 @@ module.exports = _typeof;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Faarnod01%2Fcode%2Ftrading-tools%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./":
-/*!************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Faarnod01%2Fcode%2Ftrading-tools%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
-  \************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Faarnod01%2Fcode%2Ftrading-tools%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js&hotRouterUpdates=true!./":
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Faarnod01%2Fcode%2Ftrading-tools%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js&hotRouterUpdates=true ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/next/dist/pages/_error", function() {
-      var mod = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
-      if(true) {
-        module.hot.accept(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js", function() {
-          if(!next.router.components["/next/dist/pages/_error"]) return
-          var updatedPage = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
-          next.router.update("/next/dist/pages/_error", updatedPage)
-        })
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/next/dist/pages/_error",
+      function () {
+        var mod = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js");
+        if (true) {
+          module.hot.accept(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js", function () {
+            if (!next.router.components["/next/dist/pages/_error"]) return;
+            var updatedPage = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js");
+            next.router.update("/next/dist/pages/_error", updatedPage);
+          });
+        }
+        return mod;
       }
-      return mod
-    }]);
+    ]);
   
 
 /***/ }),
@@ -318,6 +321,10 @@ Object.defineProperty(exports, "__esModule", {
 var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
 exports.AmpStateContext = React.createContext({});
+
+if (true) {
+  exports.AmpStateContext.displayName = 'AmpStateContext';
+}
 
 /***/ }),
 
@@ -395,6 +402,10 @@ Object.defineProperty(exports, "__esModule", {
 var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
 exports.HeadManagerContext = React.createContext(null);
+
+if (true) {
+  exports.HeadManagerContext.displayName = 'HeadManagerContext';
+}
 
 /***/ }),
 
@@ -587,17 +598,21 @@ exports["default"] = Head;
 
 var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
 
-var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
-
-var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
-
 var _assertThisInitialized = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
 
 var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
 
 var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
 
+var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+
+var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+
 var _toConsumableArray = __webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "./node_modules/@babel/runtime/helpers/toConsumableArray.js");
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -622,6 +637,8 @@ exports["default"] = function () {
   return (/*#__PURE__*/function (_react_1$Component) {
       _inherits(_class, _react_1$Component);
 
+      var _super = _createSuper(_class);
+
       _createClass(_class, null, [{
         key: "rewind",
         // Used when server rendering
@@ -638,7 +655,7 @@ exports["default"] = function () {
 
         _classCallCheck(this, _class);
 
-        _this = _possibleConstructorReturn(this, _getPrototypeOf(_class).call(this, props));
+        _this = _super.call(this, props);
 
         if (isServer) {
           mountedInstances.add(_assertThisInitialized(_this));
@@ -693,11 +710,15 @@ var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCh
 
 var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
 
+var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+
 var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
 
 var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
 
-var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
@@ -731,10 +752,12 @@ function _getInitialProps(_ref) {
 var Error = /*#__PURE__*/function (_react$default$Compon) {
   _inherits(Error, _react$default$Compon);
 
+  var _super = _createSuper(Error);
+
   function Error() {
     _classCallCheck(this, Error);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Error).apply(this, arguments));
+    return _super.apply(this, arguments);
   }
 
   _createClass(Error, [{
@@ -817,13 +840,13 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 /***/ }),
 
 /***/ 1:
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Faarnod01%2Fcode%2Ftrading-tools%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
-  \****************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Faarnod01%2Fcode%2Ftrading-tools%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js&hotRouterUpdates=true ***!
+  \**************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Faarnod01%2Fcode%2Ftrading-tools%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Faarnod01%2Fcode%2Ftrading-tools%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Faarnod01%2Fcode%2Ftrading-tools%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Faarnod01%2Fcode%2Ftrading-tools%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js&hotRouterUpdates=true!./");
 
 
 /***/ }),
