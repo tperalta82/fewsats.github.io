@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="UTF-8"/><meta charSet="utf-8"/><title>BitMEX and Binance Position Size Calculator — Trading tools</title><meta name="description" content="Position Size Calculator for Bitcoin and Altcoins"/><link rel="apple-touch-icon" sizes="57x57" href="/static/apple-icon-57x57.png"/><link rel="apple-touch-icon" sizes="60x60" href="/static/apple-icon-60x60.png"/><link rel="apple-touch-icon" sizes="72x72" href="/static/apple-icon-72x72.png"/><link rel="apple-touch-icon" sizes="76x76" href="/static/apple-icon-76x76.png"/><link rel="apple-touch-icon" sizes="114x114" href="/static/apple-icon-114x114.png"/><link rel="apple-touch-icon" sizes="120x120" href="/static/apple-icon-120x120.png"/><link rel="apple-touch-icon" sizes="144x144" href="/static/apple-icon-144x144.png"/><link rel="apple-touch-icon" sizes="152x152" href="/static/apple-icon-152x152.png"/><link rel="apple-touch-icon" sizes="180x180" href="/static/apple-icon-180x180.png"/><link rel="icon" type="image/png" sizes="192x192" href="/static/android-icon-192x192.png"/><link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="96x96" href="/static/favicon-96x96.png"/><link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png"/><link rel="manifest" href="/static/manifest.json"/><meta name="msapplication-TileColor" content="#ffffff"/><meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/><meta name="theme-color" content="#ffffff"/><link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon"/><link rel="icon" href="/static/favicon.ico" type="image/x-icon"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="og:title" content="BitMEX and Binance Position Size Calculator — Trading tools"/><meta name="og:description" content="Position Size Calculator for Bitcoin and Altcoins"/><meta name="og:type" content="website"/><meta name="next-head-count" content="26"/><link rel="preload" href="/_next/static/css/5e51c1355704a2f37fc0.css" as="style"/><link rel="stylesheet" href="/_next/static/css/5e51c1355704a2f37fc0.css"/><link rel="preload" href="/_next/static/mRpuVh67HcdtJz_fU5E40/pages/_app.js" as="script"/><link rel="preload" href="/_next/static/mRpuVh67HcdtJz_fU5E40/pages/position-size-calculator.js" as="script"/><link rel="preload" href="/_next/static/runtime/webpack-4bda0985652b8cd4283f.js" as="script"/><link rel="preload" href="/_next/static/chunks/framework.58fc7dcf2bf1f30ab30c.js" as="script"/><link rel="preload" href="/_next/static/chunks/c77ef8e6.58471afdb7a4755dfa0b.js" as="script"/><link rel="preload" href="/_next/static/chunks/commons.829c7aa6a1d8188b4dae.js" as="script"/><link rel="preload" href="/_next/static/chunks/b00023e879a9abb621ebc55ecf57910ae426916d.1668721633cc637fda43.js" as="script"/><link rel="preload" href="/_next/static/runtime/main-f072eb6207b1daf38ebf.js" as="script"/><link rel="preload" href="/_next/static/chunks/1858dfbc9ddfc46912d5b21338d108b2c208a5ee.d3631d6bf9b616ae5c79.js" as="script"/><link rel="preload" href="/_next/static/chunks/d40d118a212838d202bc87f3acf828327760e4f3.a97502497f4d0af8a70c.js" as="script"/><link rel="preload" href="/_next/static/chunks/f3e5c70354b8dec07fb8398969205e94fa7b67d7.674568b6a8236cedfbe9.js" as="script"/></head><body class="font-sans bg-background text-text antialiased"><script>
+<!DOCTYPE html><html lang="en"><head><meta charSet="UTF-8"/><meta charSet="utf-8"/><title>BitMEX and Binance Position Size Calculator — Trading tools</title><meta name="description" content="Position Size Calculator for Bitcoin and Altcoins"/><link rel="apple-touch-icon" sizes="57x57" href="/static/apple-icon-57x57.png"/><link rel="apple-touch-icon" sizes="60x60" href="/static/apple-icon-60x60.png"/><link rel="apple-touch-icon" sizes="72x72" href="/static/apple-icon-72x72.png"/><link rel="apple-touch-icon" sizes="76x76" href="/static/apple-icon-76x76.png"/><link rel="apple-touch-icon" sizes="114x114" href="/static/apple-icon-114x114.png"/><link rel="apple-touch-icon" sizes="120x120" href="/static/apple-icon-120x120.png"/><link rel="apple-touch-icon" sizes="144x144" href="/static/apple-icon-144x144.png"/><link rel="apple-touch-icon" sizes="152x152" href="/static/apple-icon-152x152.png"/><link rel="apple-touch-icon" sizes="180x180" href="/static/apple-icon-180x180.png"/><link rel="icon" type="image/png" sizes="192x192" href="/static/android-icon-192x192.png"/><link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="96x96" href="/static/favicon-96x96.png"/><link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png"/><link rel="manifest" href="/static/manifest.json"/><meta name="msapplication-TileColor" content="#ffffff"/><meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/><meta name="theme-color" content="#ffffff"/><link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon"/><link rel="icon" href="/static/favicon.ico" type="image/x-icon"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="og:title" content="BitMEX and Binance Position Size Calculator — Trading tools"/><meta name="og:description" content="Position Size Calculator for Bitcoin and Altcoins"/><meta name="og:type" content="website"/><meta name="next-head-count" content="26"/><link rel="preload" href="/_next/static/css/5e51c1355704a2f37fc0.css" as="style"/><link rel="stylesheet" href="/_next/static/css/5e51c1355704a2f37fc0.css"/><link rel="preload" href="/_next/static/xic8YELnRFP2z6PlO8_N7/pages/_app.js" as="script"/><link rel="preload" href="/_next/static/xic8YELnRFP2z6PlO8_N7/pages/position-size-calculator.js" as="script"/><link rel="preload" href="/_next/static/runtime/webpack-78f4fd907417021ec4d2.js" as="script"/><link rel="preload" href="/_next/static/chunks/framework.58fc7dcf2bf1f30ab30c.js" as="script"/><link rel="preload" href="/_next/static/chunks/c77ef8e6.58471afdb7a4755dfa0b.js" as="script"/><link rel="preload" href="/_next/static/chunks/commons.829c7aa6a1d8188b4dae.js" as="script"/><link rel="preload" href="/_next/static/chunks/59743ae89722b2427faa46d785c66b1daea2189f.38c2fddaed44de75c42a.js" as="script"/><link rel="preload" href="/_next/static/runtime/main-d696957176d8987c0ada.js" as="script"/><link rel="preload" href="/_next/static/chunks/8e54ec4bb8110eed38732421d51bbc615d701e12.d3631d6bf9b616ae5c79.js" as="script"/><link rel="preload" href="/_next/static/chunks/279c1b99bbeaf36b093b1b6c11fbd04d5b7c250a.4421ebf86962c80c9217.js" as="script"/><link rel="preload" href="/_next/static/chunks/4c6314933be1f0feff0c459ee1297d73dcca3ef4.674568b6a8236cedfbe9.js" as="script"/></head><body class="font-sans bg-background text-text antialiased"><script>
           (function() {
             window.__onThemeChange = function() {};
             function setTheme(newTheme) {
@@ -24,20 +24,20 @@
               window.__setPreferredTheme(e.matches ? 'dark' : 'light')
             });
             setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
-          })();</script><div id="__next"><div class="flex flex-col min-h-screen"><header class="px-3 w-full"><div class="max-w-md mr-auto ml-auto flex items-center justify-between" style="height:50px"><div class="pr-2"><a href="/"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" style="height:24;width:24" class="text-text" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="12" y1="20" x2="12" y2="10"></line><line x1="18" y1="20" x2="18" y2="4"></line><line x1="6" y1="20" x2="6" y2="16"></line></svg></a></div></div></header><main class="max-w-md px-3 mt-5 pb-10 mx-auto flex-1 w-full"><div class="opacity-0"><h1 class="text-2xl text-left">Position size calculator</h1><div><div class="mt-8"><select class="form-select block w-full mt-1 text-text bg-background border border-highlight" name="pair"><option value="XBTUSD">XBTUSD (BitMEX contracts)</option><option value="ETHUSD">ETHUSD (BitMEX perpetual contracts)</option><option selected="" value="ALTS">Alt pairs (BitMEX, Binance, etc...)</option></select></div><div class="mt-4"><table class="border-green border-l-2 shadow-xl table-fixed w-full mt-2"><tbody><tr><td class="bg-muted font-semibold text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Account Balance" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t55ca0327-3ad8-4327-a963-5aca34604272 place-right type-dark allow_click" id="Account Balance" data-id="tooltip"><style>
-  	.t55ca0327-3ad8-4327-a963-5aca34604272 {
+          })();</script><div id="__next"><div class="flex flex-col min-h-screen"><header class="px-3 w-full"><div class="max-w-md mr-auto ml-auto flex items-center justify-between" style="height:50px"><div class="pr-2"><a href="/"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" style="height:24;width:24" class="text-text" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="12" y1="20" x2="12" y2="10"></line><line x1="18" y1="20" x2="18" y2="4"></line><line x1="6" y1="20" x2="6" y2="16"></line></svg></a></div></div></header><main class="max-w-md px-3 mt-5 pb-10 mx-auto flex-1 w-full"><div class="opacity-0"><h1 class="text-2xl text-left">Position size calculator</h1><div><div class="mt-8"><select class="form-select block w-full mt-1 text-text bg-background border border-highlight" name="pair"><option value="XBTUSD">XBTUSD (BitMEX contracts)</option><option value="ETHUSD">ETHUSD (BitMEX perpetual contracts)</option><option selected="" value="ALTS">Alt pairs (BitMEX, Binance, etc...)</option></select></div><div class="mt-4"><table class="border-green border-l-2 shadow-xl table-fixed w-full mt-2"><tbody><tr><td class="bg-muted font-semibold text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Account Balance" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip taa0e8375-aa61-49bf-91d0-6d581548b397 place-right type-dark allow_click" id="Account Balance" data-id="tooltip"><style>
+  	.taa0e8375-aa61-49bf-91d0-6d581548b397 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t55ca0327-3ad8-4327-a963-5aca34604272.place-top {
+  	.taa0e8375-aa61-49bf-91d0-6d581548b397.place-top {
         margin-top: -10px;
     }
-    .t55ca0327-3ad8-4327-a963-5aca34604272.place-top::before {
+    .taa0e8375-aa61-49bf-91d0-6d581548b397.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t55ca0327-3ad8-4327-a963-5aca34604272.place-top::after {
+    .taa0e8375-aa61-49bf-91d0-6d581548b397.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -48,13 +48,13 @@
         border-top-width: 6px;
     }
 
-    .t55ca0327-3ad8-4327-a963-5aca34604272.place-bottom {
+    .taa0e8375-aa61-49bf-91d0-6d581548b397.place-bottom {
         margin-top: 10px;
     }
-    .t55ca0327-3ad8-4327-a963-5aca34604272.place-bottom::before {
+    .taa0e8375-aa61-49bf-91d0-6d581548b397.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t55ca0327-3ad8-4327-a963-5aca34604272.place-bottom::after {
+    .taa0e8375-aa61-49bf-91d0-6d581548b397.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -65,13 +65,13 @@
         border-bottom-width: 6px;
     }
 
-    .t55ca0327-3ad8-4327-a963-5aca34604272.place-left {
+    .taa0e8375-aa61-49bf-91d0-6d581548b397.place-left {
         margin-left: -10px;
     }
-    .t55ca0327-3ad8-4327-a963-5aca34604272.place-left::before {
+    .taa0e8375-aa61-49bf-91d0-6d581548b397.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t55ca0327-3ad8-4327-a963-5aca34604272.place-left::after {
+    .taa0e8375-aa61-49bf-91d0-6d581548b397.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -82,13 +82,13 @@
         border-left-width: 6px;
     }
 
-    .t55ca0327-3ad8-4327-a963-5aca34604272.place-right {
+    .taa0e8375-aa61-49bf-91d0-6d581548b397.place-right {
         margin-left: 10px;
     }
-    .t55ca0327-3ad8-4327-a963-5aca34604272.place-right::before {
+    .taa0e8375-aa61-49bf-91d0-6d581548b397.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t55ca0327-3ad8-4327-a963-5aca34604272.place-right::after {
+    .taa0e8375-aa61-49bf-91d0-6d581548b397.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -98,20 +98,20 @@
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><div class="text-xs font-light p-1">This is your total account balance.</div></div></div></div><div class="text-sm">Account Balance</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" name="capital" class="text-sm w-full text-right bg-background pr-3 text-text" value="1"/></td></tr><tr><td class="bg-muted font-semibold text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Risk (%)" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip ta6ec4f37-8d22-4911-a0cc-0349203ca8b8 place-right type-dark allow_click" id="Risk (%)" data-id="tooltip"><style>
-  	.ta6ec4f37-8d22-4911-a0cc-0349203ca8b8 {
+  </style><div class="text-xs font-light p-1">This is your total account balance.</div></div></div></div><div class="text-sm">Account Balance</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" name="capital" class="text-sm w-full text-right bg-background pr-3 text-text" value="1"/></td></tr><tr><td class="bg-muted font-semibold text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Risk (%)" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip tc206d7c6-172a-4895-b272-0f067d562c13 place-right type-dark allow_click" id="Risk (%)" data-id="tooltip"><style>
+  	.tc206d7c6-172a-4895-b272-0f067d562c13 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-top {
+  	.tc206d7c6-172a-4895-b272-0f067d562c13.place-top {
         margin-top: -10px;
     }
-    .ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-top::before {
+    .tc206d7c6-172a-4895-b272-0f067d562c13.place-top::before {
         border-top: 8px solid transparent;
     }
-    .ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-top::after {
+    .tc206d7c6-172a-4895-b272-0f067d562c13.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -122,13 +122,13 @@
         border-top-width: 6px;
     }
 
-    .ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-bottom {
+    .tc206d7c6-172a-4895-b272-0f067d562c13.place-bottom {
         margin-top: 10px;
     }
-    .ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-bottom::before {
+    .tc206d7c6-172a-4895-b272-0f067d562c13.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-bottom::after {
+    .tc206d7c6-172a-4895-b272-0f067d562c13.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -139,13 +139,13 @@
         border-bottom-width: 6px;
     }
 
-    .ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-left {
+    .tc206d7c6-172a-4895-b272-0f067d562c13.place-left {
         margin-left: -10px;
     }
-    .ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-left::before {
+    .tc206d7c6-172a-4895-b272-0f067d562c13.place-left::before {
         border-left: 8px solid transparent;
     }
-    .ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-left::after {
+    .tc206d7c6-172a-4895-b272-0f067d562c13.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -156,13 +156,13 @@
         border-left-width: 6px;
     }
 
-    .ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-right {
+    .tc206d7c6-172a-4895-b272-0f067d562c13.place-right {
         margin-left: 10px;
     }
-    .ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-right::before {
+    .tc206d7c6-172a-4895-b272-0f067d562c13.place-right::before {
         border-right: 8px solid transparent;
     }
-    .ta6ec4f37-8d22-4911-a0cc-0349203ca8b8.place-right::after {
+    .tc206d7c6-172a-4895-b272-0f067d562c13.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -172,20 +172,20 @@
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><div class="text-xs font-light p-1">Percentage of acceptable risk.</div></div></div></div><div class="text-sm">Risk (%)</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" name="risk" class="text-sm w-full text-right bg-background pr-3 text-text" value="5"/></td></tr><tr><td class="bg-muted font-semibold text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Entry price" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t5b91960e-c531-4e68-b878-a1136a201212 place-right type-dark allow_click" id="Entry price" data-id="tooltip"><style>
-  	.t5b91960e-c531-4e68-b878-a1136a201212 {
+  </style><div class="text-xs font-light p-1">Percentage of acceptable risk.</div></div></div></div><div class="text-sm">Risk (%)</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" name="risk" class="text-sm w-full text-right bg-background pr-3 text-text" value="5"/></td></tr><tr><td class="bg-muted font-semibold text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Entry price" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t25bfd667-b3d2-496f-8efa-36ec5f4a48f7 place-right type-dark allow_click" id="Entry price" data-id="tooltip"><style>
+  	.t25bfd667-b3d2-496f-8efa-36ec5f4a48f7 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t5b91960e-c531-4e68-b878-a1136a201212.place-top {
+  	.t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-top {
         margin-top: -10px;
     }
-    .t5b91960e-c531-4e68-b878-a1136a201212.place-top::before {
+    .t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t5b91960e-c531-4e68-b878-a1136a201212.place-top::after {
+    .t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -196,13 +196,13 @@
         border-top-width: 6px;
     }
 
-    .t5b91960e-c531-4e68-b878-a1136a201212.place-bottom {
+    .t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-bottom {
         margin-top: 10px;
     }
-    .t5b91960e-c531-4e68-b878-a1136a201212.place-bottom::before {
+    .t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t5b91960e-c531-4e68-b878-a1136a201212.place-bottom::after {
+    .t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -213,13 +213,13 @@
         border-bottom-width: 6px;
     }
 
-    .t5b91960e-c531-4e68-b878-a1136a201212.place-left {
+    .t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-left {
         margin-left: -10px;
     }
-    .t5b91960e-c531-4e68-b878-a1136a201212.place-left::before {
+    .t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t5b91960e-c531-4e68-b878-a1136a201212.place-left::after {
+    .t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -230,13 +230,13 @@
         border-left-width: 6px;
     }
 
-    .t5b91960e-c531-4e68-b878-a1136a201212.place-right {
+    .t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-right {
         margin-left: 10px;
     }
-    .t5b91960e-c531-4e68-b878-a1136a201212.place-right::before {
+    .t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t5b91960e-c531-4e68-b878-a1136a201212.place-right::after {
+    .t25bfd667-b3d2-496f-8efa-36ec5f4a48f7.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -246,20 +246,20 @@
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><div class="text-xs font-light p-1">Position entry price.</div></div></div></div><div class="text-sm">Entry price</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" name="entry" class="text-sm w-full text-right bg-background pr-3 text-text" value="8,000"/></td></tr><tr><td class="bg-muted font-semibold text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Stop-Loss Price" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t47f6ef55-1428-419b-8ea0-72e3322442ca place-right type-dark allow_click" id="Stop-Loss Price" data-id="tooltip"><style>
-  	.t47f6ef55-1428-419b-8ea0-72e3322442ca {
+  </style><div class="text-xs font-light p-1">Position entry price.</div></div></div></div><div class="text-sm">Entry price</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" name="entry" class="text-sm w-full text-right bg-background pr-3 text-text" value="8,000"/></td></tr><tr><td class="bg-muted font-semibold text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Stop-Loss Price" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip tf27f709c-566d-4dee-8816-c42db4ccb548 place-right type-dark allow_click" id="Stop-Loss Price" data-id="tooltip"><style>
+  	.tf27f709c-566d-4dee-8816-c42db4ccb548 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t47f6ef55-1428-419b-8ea0-72e3322442ca.place-top {
+  	.tf27f709c-566d-4dee-8816-c42db4ccb548.place-top {
         margin-top: -10px;
     }
-    .t47f6ef55-1428-419b-8ea0-72e3322442ca.place-top::before {
+    .tf27f709c-566d-4dee-8816-c42db4ccb548.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t47f6ef55-1428-419b-8ea0-72e3322442ca.place-top::after {
+    .tf27f709c-566d-4dee-8816-c42db4ccb548.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -270,13 +270,13 @@
         border-top-width: 6px;
     }
 
-    .t47f6ef55-1428-419b-8ea0-72e3322442ca.place-bottom {
+    .tf27f709c-566d-4dee-8816-c42db4ccb548.place-bottom {
         margin-top: 10px;
     }
-    .t47f6ef55-1428-419b-8ea0-72e3322442ca.place-bottom::before {
+    .tf27f709c-566d-4dee-8816-c42db4ccb548.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t47f6ef55-1428-419b-8ea0-72e3322442ca.place-bottom::after {
+    .tf27f709c-566d-4dee-8816-c42db4ccb548.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -287,13 +287,13 @@
         border-bottom-width: 6px;
     }
 
-    .t47f6ef55-1428-419b-8ea0-72e3322442ca.place-left {
+    .tf27f709c-566d-4dee-8816-c42db4ccb548.place-left {
         margin-left: -10px;
     }
-    .t47f6ef55-1428-419b-8ea0-72e3322442ca.place-left::before {
+    .tf27f709c-566d-4dee-8816-c42db4ccb548.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t47f6ef55-1428-419b-8ea0-72e3322442ca.place-left::after {
+    .tf27f709c-566d-4dee-8816-c42db4ccb548.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -304,13 +304,13 @@
         border-left-width: 6px;
     }
 
-    .t47f6ef55-1428-419b-8ea0-72e3322442ca.place-right {
+    .tf27f709c-566d-4dee-8816-c42db4ccb548.place-right {
         margin-left: 10px;
     }
-    .t47f6ef55-1428-419b-8ea0-72e3322442ca.place-right::before {
+    .tf27f709c-566d-4dee-8816-c42db4ccb548.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t47f6ef55-1428-419b-8ea0-72e3322442ca.place-right::after {
+    .tf27f709c-566d-4dee-8816-c42db4ccb548.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -320,20 +320,20 @@
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><div class="text-xs font-light p-1">Stop-Loss price.</div></div></div></div><div class="text-sm">Stop-Loss Price</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" name="stop" class="text-sm w-full text-right bg-background pr-3 text-text" value="7,000"/></td></tr><tr><td class="bg-muted font-semibold text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Take Profit Price" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t3e86b683-18be-47ed-9ef3-a32799cab97e place-right type-dark allow_click" id="Take Profit Price" data-id="tooltip"><style>
-  	.t3e86b683-18be-47ed-9ef3-a32799cab97e {
+  </style><div class="text-xs font-light p-1">Stop-Loss price.</div></div></div></div><div class="text-sm">Stop-Loss Price</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" name="stop" class="text-sm w-full text-right bg-background pr-3 text-text" value="7,000"/></td></tr><tr><td class="bg-muted font-semibold text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Take Profit Price" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd place-right type-dark allow_click" id="Take Profit Price" data-id="tooltip"><style>
+  	.tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t3e86b683-18be-47ed-9ef3-a32799cab97e.place-top {
+  	.tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-top {
         margin-top: -10px;
     }
-    .t3e86b683-18be-47ed-9ef3-a32799cab97e.place-top::before {
+    .tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t3e86b683-18be-47ed-9ef3-a32799cab97e.place-top::after {
+    .tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -344,13 +344,13 @@
         border-top-width: 6px;
     }
 
-    .t3e86b683-18be-47ed-9ef3-a32799cab97e.place-bottom {
+    .tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-bottom {
         margin-top: 10px;
     }
-    .t3e86b683-18be-47ed-9ef3-a32799cab97e.place-bottom::before {
+    .tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t3e86b683-18be-47ed-9ef3-a32799cab97e.place-bottom::after {
+    .tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -361,13 +361,13 @@
         border-bottom-width: 6px;
     }
 
-    .t3e86b683-18be-47ed-9ef3-a32799cab97e.place-left {
+    .tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-left {
         margin-left: -10px;
     }
-    .t3e86b683-18be-47ed-9ef3-a32799cab97e.place-left::before {
+    .tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t3e86b683-18be-47ed-9ef3-a32799cab97e.place-left::after {
+    .tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -378,13 +378,13 @@
         border-left-width: 6px;
     }
 
-    .t3e86b683-18be-47ed-9ef3-a32799cab97e.place-right {
+    .tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-right {
         margin-left: 10px;
     }
-    .t3e86b683-18be-47ed-9ef3-a32799cab97e.place-right::before {
+    .tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t3e86b683-18be-47ed-9ef3-a32799cab97e.place-right::after {
+    .tdbbaf503-1b2e-4a46-b49c-5cd81607a9dd.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -394,20 +394,20 @@
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><div class="text-xs font-light p-1">Take Profit price.</div></div></div></div><div class="text-sm">Take Profit Price</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" name="target" class="text-sm w-full text-right bg-background pr-3 text-text" value="9,000"/></td></tr><tr><td class="bg-background text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Total Risk in BTC" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f place-right type-dark allow_click" id="Total Risk in BTC" data-id="tooltip"><style>
-  	.te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f {
+  </style><div class="text-xs font-light p-1">Take Profit price.</div></div></div></div><div class="text-sm">Take Profit Price</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" name="target" class="text-sm w-full text-right bg-background pr-3 text-text" value="9,000"/></td></tr><tr><td class="bg-background text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Total Risk in BTC" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t7befe92e-fd8f-4195-bdb5-37ab84bc9965 place-right type-dark allow_click" id="Total Risk in BTC" data-id="tooltip"><style>
+  	.t7befe92e-fd8f-4195-bdb5-37ab84bc9965 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-top {
+  	.t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-top {
         margin-top: -10px;
     }
-    .te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-top::before {
+    .t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-top::before {
         border-top: 8px solid transparent;
     }
-    .te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-top::after {
+    .t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -418,13 +418,13 @@
         border-top-width: 6px;
     }
 
-    .te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-bottom {
+    .t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-bottom {
         margin-top: 10px;
     }
-    .te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-bottom::before {
+    .t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-bottom::after {
+    .t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -435,13 +435,13 @@
         border-bottom-width: 6px;
     }
 
-    .te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-left {
+    .t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-left {
         margin-left: -10px;
     }
-    .te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-left::before {
+    .t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-left::before {
         border-left: 8px solid transparent;
     }
-    .te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-left::after {
+    .t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -452,13 +452,13 @@
         border-left-width: 6px;
     }
 
-    .te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-right {
+    .t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-right {
         margin-left: 10px;
     }
-    .te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-right::before {
+    .t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-right::before {
         border-right: 8px solid transparent;
     }
-    .te8b1dc7c-75fb-442b-b1d6-4f086a0ed45f.place-right::after {
+    .t7befe92e-fd8f-4195-bdb5-37ab84bc9965.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -468,20 +468,20 @@
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><div class="text-xs font-light p-1">Maximum loss in case the Stop-Loss gets hit.</div></div></div></div><div class="text-sm">Total Risk in BTC</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-lgray " readonly="" tabindex="-1" value="0.05000000"/></td></tr><tr><td class="bg-background text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Distance to Stop-Loss (%)" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip taaf0bdbc-54b4-4a93-acbc-a5f22e3692df place-right type-dark allow_click" id="Distance to Stop-Loss (%)" data-id="tooltip"><style>
-  	.taaf0bdbc-54b4-4a93-acbc-a5f22e3692df {
+  </style><div class="text-xs font-light p-1">Maximum loss in case the Stop-Loss gets hit.</div></div></div></div><div class="text-sm">Total Risk in BTC</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-lgray " readonly="" tabindex="-1" value="0.05000000"/></td></tr><tr><td class="bg-background text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Distance to Stop-Loss (%)" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t732e67b0-fd7e-461e-91b1-62fe601da7d0 place-right type-dark allow_click" id="Distance to Stop-Loss (%)" data-id="tooltip"><style>
+  	.t732e67b0-fd7e-461e-91b1-62fe601da7d0 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-top {
+  	.t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-top {
         margin-top: -10px;
     }
-    .taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-top::before {
+    .t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-top::before {
         border-top: 8px solid transparent;
     }
-    .taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-top::after {
+    .t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -492,13 +492,13 @@
         border-top-width: 6px;
     }
 
-    .taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-bottom {
+    .t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-bottom {
         margin-top: 10px;
     }
-    .taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-bottom::before {
+    .t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-bottom::after {
+    .t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -509,13 +509,13 @@
         border-bottom-width: 6px;
     }
 
-    .taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-left {
+    .t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-left {
         margin-left: -10px;
     }
-    .taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-left::before {
+    .t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-left::before {
         border-left: 8px solid transparent;
     }
-    .taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-left::after {
+    .t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -526,13 +526,13 @@
         border-left-width: 6px;
     }
 
-    .taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-right {
+    .t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-right {
         margin-left: 10px;
     }
-    .taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-right::before {
+    .t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-right::before {
         border-right: 8px solid transparent;
     }
-    .taaf0bdbc-54b4-4a93-acbc-a5f22e3692df.place-right::after {
+    .t732e67b0-fd7e-461e-91b1-62fe601da7d0.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -542,20 +542,20 @@
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><div class="text-xs font-light p-1"><div><div>Difference between Entry price and Stop-Loss.</div><div>Expressed in percentage.</div></div></div></div></div></div><div class="text-sm">Distance to Stop-Loss (%)</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-lgray " readonly="" tabindex="-1" value="12.500"/></td></tr><tr><td class="bg-background text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Position Size in BTC" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t4ba51f34-d8e4-4fd6-bb8e-3953add058e8 place-right type-dark allow_click" id="Position Size in BTC" data-id="tooltip"><style>
-  	.t4ba51f34-d8e4-4fd6-bb8e-3953add058e8 {
+  </style><div class="text-xs font-light p-1"><div><div>Difference between Entry price and Stop-Loss.</div><div>Expressed in percentage.</div></div></div></div></div></div><div class="text-sm">Distance to Stop-Loss (%)</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-lgray " readonly="" tabindex="-1" value="12.500"/></td></tr><tr><td class="bg-background text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Position Size in BTC" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t18623896-eab1-46e4-9e95-3b18e86fa060 place-right type-dark allow_click" id="Position Size in BTC" data-id="tooltip"><style>
+  	.t18623896-eab1-46e4-9e95-3b18e86fa060 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-top {
+  	.t18623896-eab1-46e4-9e95-3b18e86fa060.place-top {
         margin-top: -10px;
     }
-    .t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-top::before {
+    .t18623896-eab1-46e4-9e95-3b18e86fa060.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-top::after {
+    .t18623896-eab1-46e4-9e95-3b18e86fa060.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -566,13 +566,13 @@
         border-top-width: 6px;
     }
 
-    .t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-bottom {
+    .t18623896-eab1-46e4-9e95-3b18e86fa060.place-bottom {
         margin-top: 10px;
     }
-    .t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-bottom::before {
+    .t18623896-eab1-46e4-9e95-3b18e86fa060.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-bottom::after {
+    .t18623896-eab1-46e4-9e95-3b18e86fa060.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -583,13 +583,13 @@
         border-bottom-width: 6px;
     }
 
-    .t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-left {
+    .t18623896-eab1-46e4-9e95-3b18e86fa060.place-left {
         margin-left: -10px;
     }
-    .t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-left::before {
+    .t18623896-eab1-46e4-9e95-3b18e86fa060.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-left::after {
+    .t18623896-eab1-46e4-9e95-3b18e86fa060.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -600,13 +600,13 @@
         border-left-width: 6px;
     }
 
-    .t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-right {
+    .t18623896-eab1-46e4-9e95-3b18e86fa060.place-right {
         margin-left: 10px;
     }
-    .t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-right::before {
+    .t18623896-eab1-46e4-9e95-3b18e86fa060.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t4ba51f34-d8e4-4fd6-bb8e-3953add058e8.place-right::after {
+    .t18623896-eab1-46e4-9e95-3b18e86fa060.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -616,20 +616,20 @@
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><div class="text-xs font-light p-1"><div><div>Position size expressed in BTC.</div><div class="mt-1">Calculated with the following formula:</div><div class="underline">Position Size = Risk Amount/Distance to Stop</div><div class="mt-1">Assuming an account of 1 BTC.</div><div>A risk of 5% per trade.</div><div>A 10% distance from the entry to the Stop-Loss.</div><div class="underline">Position Size = (1 BTC x 0.05)/0.1 = 0.5 BTC</div></div></div></div></div></div><div class="text-sm">Position Size in BTC</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-lgray " readonly="" tabindex="-1" value="0.40000000"/></td></tr><tr><td class="bg-background text-green font-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Position Size" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip tffc7229d-e8fe-4a75-975f-2407c13d779c place-right type-dark allow_click" id="Position Size" data-id="tooltip"><style>
-  	.tffc7229d-e8fe-4a75-975f-2407c13d779c {
+  </style><div class="text-xs font-light p-1"><div><div>Position size expressed in BTC.</div><div class="mt-1">Calculated with the following formula:</div><div class="underline">Position Size = Risk Amount/Distance to Stop</div><div class="mt-1">Assuming an account of 1 BTC.</div><div>A risk of 5% per trade.</div><div>A 10% distance from the entry to the Stop-Loss.</div><div class="underline">Position Size = (1 BTC x 0.05)/0.1 = 0.5 BTC</div></div></div></div></div></div><div class="text-sm">Position Size in BTC</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-lgray " readonly="" tabindex="-1" value="0.40000000"/></td></tr><tr><td class="bg-background text-green font-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Position Size" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip ta397e87d-52e3-42ef-ba96-ec3b478cd4dc place-right type-dark allow_click" id="Position Size" data-id="tooltip"><style>
+  	.ta397e87d-52e3-42ef-ba96-ec3b478cd4dc {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.tffc7229d-e8fe-4a75-975f-2407c13d779c.place-top {
+  	.ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-top {
         margin-top: -10px;
     }
-    .tffc7229d-e8fe-4a75-975f-2407c13d779c.place-top::before {
+    .ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-top::before {
         border-top: 8px solid transparent;
     }
-    .tffc7229d-e8fe-4a75-975f-2407c13d779c.place-top::after {
+    .ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -640,13 +640,13 @@
         border-top-width: 6px;
     }
 
-    .tffc7229d-e8fe-4a75-975f-2407c13d779c.place-bottom {
+    .ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-bottom {
         margin-top: 10px;
     }
-    .tffc7229d-e8fe-4a75-975f-2407c13d779c.place-bottom::before {
+    .ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .tffc7229d-e8fe-4a75-975f-2407c13d779c.place-bottom::after {
+    .ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -657,13 +657,13 @@
         border-bottom-width: 6px;
     }
 
-    .tffc7229d-e8fe-4a75-975f-2407c13d779c.place-left {
+    .ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-left {
         margin-left: -10px;
     }
-    .tffc7229d-e8fe-4a75-975f-2407c13d779c.place-left::before {
+    .ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-left::before {
         border-left: 8px solid transparent;
     }
-    .tffc7229d-e8fe-4a75-975f-2407c13d779c.place-left::after {
+    .ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -674,13 +674,13 @@
         border-left-width: 6px;
     }
 
-    .tffc7229d-e8fe-4a75-975f-2407c13d779c.place-right {
+    .ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-right {
         margin-left: 10px;
     }
-    .tffc7229d-e8fe-4a75-975f-2407c13d779c.place-right::before {
+    .ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-right::before {
         border-right: 8px solid transparent;
     }
-    .tffc7229d-e8fe-4a75-975f-2407c13d779c.place-right::after {
+    .ta397e87d-52e3-42ef-ba96-ec3b478cd4dc.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -690,20 +690,20 @@
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><div class="text-xs font-light p-1"><div><div>Position size expressed in USD or $ALT.</div><div>On BitMEX it corresponds to the amount of contracts to buy.</div><div>For $ALTS it corresponds to the amount to buy.</div><div class="mt-1">Calculated with the following formula:</div><div class="underline">Position Size = Entry price * Position Size in BTC</div></div></div></div></div></div><div class="text-sm">Position Size</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-green font-bold" readonly="" tabindex="-1" value="0.00"/></td></tr><tr><td class="bg-background text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Risk Reward Ratio" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t430c9edb-d5ed-429d-aa6e-4bf37c0944d7 place-right type-dark allow_click" id="Risk Reward Ratio" data-id="tooltip"><style>
-  	.t430c9edb-d5ed-429d-aa6e-4bf37c0944d7 {
+  </style><div class="text-xs font-light p-1"><div><div>Position size expressed in USD or $ALT.</div><div>On BitMEX it corresponds to the amount of contracts to buy.</div><div>For $ALTS it corresponds to the amount to buy.</div><div class="mt-1">Calculated with the following formula:</div><div class="underline">Position Size = Entry price * Position Size in BTC</div></div></div></div></div></div><div class="text-sm">Position Size</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-green font-bold" readonly="" tabindex="-1" value="0.00"/></td></tr><tr><td class="bg-background text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Risk Reward Ratio" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t3e6db03a-dd15-4645-a3e6-f69aed952321 place-right type-dark allow_click" id="Risk Reward Ratio" data-id="tooltip"><style>
+  	.t3e6db03a-dd15-4645-a3e6-f69aed952321 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-top {
+  	.t3e6db03a-dd15-4645-a3e6-f69aed952321.place-top {
         margin-top: -10px;
     }
-    .t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-top::before {
+    .t3e6db03a-dd15-4645-a3e6-f69aed952321.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-top::after {
+    .t3e6db03a-dd15-4645-a3e6-f69aed952321.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -714,13 +714,13 @@
         border-top-width: 6px;
     }
 
-    .t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-bottom {
+    .t3e6db03a-dd15-4645-a3e6-f69aed952321.place-bottom {
         margin-top: 10px;
     }
-    .t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-bottom::before {
+    .t3e6db03a-dd15-4645-a3e6-f69aed952321.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-bottom::after {
+    .t3e6db03a-dd15-4645-a3e6-f69aed952321.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -731,13 +731,13 @@
         border-bottom-width: 6px;
     }
 
-    .t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-left {
+    .t3e6db03a-dd15-4645-a3e6-f69aed952321.place-left {
         margin-left: -10px;
     }
-    .t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-left::before {
+    .t3e6db03a-dd15-4645-a3e6-f69aed952321.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-left::after {
+    .t3e6db03a-dd15-4645-a3e6-f69aed952321.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -748,13 +748,13 @@
         border-left-width: 6px;
     }
 
-    .t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-right {
+    .t3e6db03a-dd15-4645-a3e6-f69aed952321.place-right {
         margin-left: 10px;
     }
-    .t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-right::before {
+    .t3e6db03a-dd15-4645-a3e6-f69aed952321.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t430c9edb-d5ed-429d-aa6e-4bf37c0944d7.place-right::after {
+    .t3e6db03a-dd15-4645-a3e6-f69aed952321.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -764,20 +764,20 @@
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><div class="text-xs font-light p-1">Risk/Reward Ratio.</div></div></div></div><div class="text-sm">Risk Reward Ratio</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-lgray " readonly="" tabindex="-1" value="1.00"/></td></tr><tr><td class="bg-background text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Potential Gain" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip t7282ae69-ea19-407a-94ca-b9f50ca825bc place-right type-dark allow_click" id="Potential Gain" data-id="tooltip"><style>
-  	.t7282ae69-ea19-407a-94ca-b9f50ca825bc {
+  </style><div class="text-xs font-light p-1">Risk/Reward Ratio.</div></div></div></div><div class="text-sm">Risk Reward Ratio</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-lgray " readonly="" tabindex="-1" value="1.00"/></td></tr><tr><td class="bg-background text-text font-semi-bold truncate p-1 w-2/3 border border-highlight"><div class="flex items-center"><div class="mr-2 ml-1"><div><div data-tip="true" data-for="Potential Gain" class="flex items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-300 transition-all hover:text-lgray inline-block h-5 w-5 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg></div><div class="__react_component_tooltip td25bb6f9-a427-4bd2-9cf4-ce01519c4240 place-right type-dark allow_click" id="Potential Gain" data-id="tooltip"><style>
+  	.td25bb6f9-a427-4bd2-9cf4-ce01519c4240 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-top {
+  	.td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-top {
         margin-top: -10px;
     }
-    .t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-top::before {
+    .td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-top::after {
+    .td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -788,13 +788,13 @@
         border-top-width: 6px;
     }
 
-    .t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-bottom {
+    .td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-bottom {
         margin-top: 10px;
     }
-    .t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-bottom::before {
+    .td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-bottom::after {
+    .td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -805,13 +805,13 @@
         border-bottom-width: 6px;
     }
 
-    .t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-left {
+    .td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-left {
         margin-left: -10px;
     }
-    .t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-left::before {
+    .td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-left::after {
+    .td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -822,13 +822,13 @@
         border-left-width: 6px;
     }
 
-    .t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-right {
+    .td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-right {
         margin-left: 10px;
     }
-    .t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-right::before {
+    .td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t7282ae69-ea19-407a-94ca-b9f50ca825bc.place-right::after {
+    .td25bb6f9-a427-4bd2-9cf4-ce01519c4240.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -838,4 +838,4 @@
         border-right-style: solid;
         border-right-width: 6px;
     }
-  </style><div class="text-xs font-light p-1">Realised gain in case of Take Profit.</div></div></div></div><div class="text-sm">Potential Gain</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-lgray " readonly="" tabindex="-1" value="0.05000000"/></td></tr></tbody></table></div></div></div></main><footer class="py-3 px-3 w-full text-center p-4 bottom-0 border-t border-lgray"><div class="py-2"><span>Trade with me</span><div><a class="hover:no-underline px-2 visited:text-accent underline text-accent transition-all" href="https://evolve.markets/r/bce609b2">Evolve Markets</a>-<a class="hover:no-underline px-2 visited:text-accent underline text-accent transition-all" href="https://primexbt.com?signup=139224">PrimeXBT</a>-<a class="hover:no-underline px-2 visited:text-accent underline text-accent transition-all" href="https://www.bitmex.com/register/0Cv8Uv">BitMEX</a></div></div></footer></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/position-size-calculator","query":{},"buildId":"mRpuVh67HcdtJz_fU5E40","nextExport":true,"autoExport":true,"isFallback":false}</script><script nomodule="" src="/_next/static/runtime/polyfills-2957c3ce98a87f7327c4.js"></script><script async="" data-next-page="/_app" src="/_next/static/mRpuVh67HcdtJz_fU5E40/pages/_app.js"></script><script async="" data-next-page="/position-size-calculator" src="/_next/static/mRpuVh67HcdtJz_fU5E40/pages/position-size-calculator.js"></script><script src="/_next/static/runtime/webpack-4bda0985652b8cd4283f.js" async=""></script><script src="/_next/static/chunks/framework.58fc7dcf2bf1f30ab30c.js" async=""></script><script src="/_next/static/chunks/c77ef8e6.58471afdb7a4755dfa0b.js" async=""></script><script src="/_next/static/chunks/commons.829c7aa6a1d8188b4dae.js" async=""></script><script src="/_next/static/chunks/b00023e879a9abb621ebc55ecf57910ae426916d.1668721633cc637fda43.js" async=""></script><script src="/_next/static/runtime/main-f072eb6207b1daf38ebf.js" async=""></script><script src="/_next/static/chunks/1858dfbc9ddfc46912d5b21338d108b2c208a5ee.d3631d6bf9b616ae5c79.js" async=""></script><script src="/_next/static/chunks/d40d118a212838d202bc87f3acf828327760e4f3.a97502497f4d0af8a70c.js" async=""></script><script src="/_next/static/chunks/f3e5c70354b8dec07fb8398969205e94fa7b67d7.674568b6a8236cedfbe9.js" async=""></script><script src="/_next/static/mRpuVh67HcdtJz_fU5E40/_buildManifest.js" async=""></script><script src="/_next/static/mRpuVh67HcdtJz_fU5E40/_ssgManifest.js" async=""></script></body></html>
+  </style><div class="text-xs font-light p-1">Realised gain in case of Take Profit.</div></div></div></div><div class="text-sm">Potential Gain</div></div></td><td class="p-1 w-1/3 border border-highlight"><input type="text" inputMode="text" class="text-sm w-full text-right bg-background pr-3 text-lgray " readonly="" tabindex="-1" value="0.05000000"/></td></tr></tbody></table></div></div></div></main><footer class="py-3 px-3 w-full text-center p-4 bottom-0 border-t border-lgray"><div class="py-2"><span>Trade with me</span><div><a class="hover:no-underline px-2 visited:text-accent underline text-accent transition-all" href="https://evolve.markets/r/bce609b2">Evolve Markets</a>-<a class="hover:no-underline px-2 visited:text-accent underline text-accent transition-all" href="https://primexbt.com?signup=139224">PrimeXBT</a>-<a class="hover:no-underline px-2 visited:text-accent underline text-accent transition-all" href="https://www.bitmex.com/register/0Cv8Uv">BitMEX</a></div></div></footer></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/position-size-calculator","query":{},"buildId":"xic8YELnRFP2z6PlO8_N7","nextExport":true,"autoExport":true,"isFallback":false}</script><script nomodule="" src="/_next/static/runtime/polyfills-d7e05598752be082820d.js"></script><script async="" data-next-page="/_app" src="/_next/static/xic8YELnRFP2z6PlO8_N7/pages/_app.js"></script><script async="" data-next-page="/position-size-calculator" src="/_next/static/xic8YELnRFP2z6PlO8_N7/pages/position-size-calculator.js"></script><script src="/_next/static/runtime/webpack-78f4fd907417021ec4d2.js" async=""></script><script src="/_next/static/chunks/framework.58fc7dcf2bf1f30ab30c.js" async=""></script><script src="/_next/static/chunks/c77ef8e6.58471afdb7a4755dfa0b.js" async=""></script><script src="/_next/static/chunks/commons.829c7aa6a1d8188b4dae.js" async=""></script><script src="/_next/static/chunks/59743ae89722b2427faa46d785c66b1daea2189f.38c2fddaed44de75c42a.js" async=""></script><script src="/_next/static/runtime/main-d696957176d8987c0ada.js" async=""></script><script src="/_next/static/chunks/8e54ec4bb8110eed38732421d51bbc615d701e12.d3631d6bf9b616ae5c79.js" async=""></script><script src="/_next/static/chunks/279c1b99bbeaf36b093b1b6c11fbd04d5b7c250a.4421ebf86962c80c9217.js" async=""></script><script src="/_next/static/chunks/4c6314933be1f0feff0c459ee1297d73dcca3ef4.674568b6a8236cedfbe9.js" async=""></script><script src="/_next/static/xic8YELnRFP2z6PlO8_N7/_buildManifest.js" async=""></script><script src="/_next/static/xic8YELnRFP2z6PlO8_N7/_ssgManifest.js" async=""></script></body></html>
